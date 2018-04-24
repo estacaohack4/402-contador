@@ -1,0 +1,17 @@
+section{
+    display: flex;
+}
+
+section > div{
+    width: 50%;
+    height: 100vh;
+    border: 1px solid black;
+}
+
+.contador{
+    padding: 20px;
+    font-size: 32px;
+    border: 1px solid #777;
+    color: #777;
+    border-radius: 10px;
+}
