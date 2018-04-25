@@ -12,4 +12,9 @@ class Contador{
 
         elementoPai.appendChild(this.elemento);
     }
+
+    zerar(){
+        this.valor = 0;
+        this.elemento.innerHTML = this.valor;
+    }
 }
